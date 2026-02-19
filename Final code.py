@@ -1,7 +1,3 @@
-# ==============================
-# Prosperity Prognosticator
-# Single Colab Run Code
-# ==============================
 
 # 1️⃣ Install required libraries
 !pip install flask joblib scikit-learn pandas numpy matplotlib seaborn
