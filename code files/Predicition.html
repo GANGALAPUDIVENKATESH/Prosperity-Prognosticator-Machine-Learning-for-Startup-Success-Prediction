@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict</title>
+</head>
+<body>
+    <h2>Enter Startup Details</h2>
+    <form action="/predict" method="post">
+        Funding Rounds: <input type="number" step="any" name="funding_rounds"><br><br>
+        Funding Amount (M$): <input type="number" step="any" name="funding_amount"><br><br>
+        Market Size: <input type="number" step="any" name="market_size"><br><br>
+        Team Size: <input type="number" step="any" name="team_size"><br><br>
+        Years Active: <input type="number" step="any" name="years_active"><br><br>
+        Revenue Growth: <input type="number" step="any" name="revenue_growth"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
