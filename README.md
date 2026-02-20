@@ -22,13 +22,19 @@ Best performing model in this project
 
 Rule-based model for interpretability
 Used for comparison with ensemble methods
+
+
 **3️⃣ Support Vector Machine (SVM)**
 Effective for classification with clear margins
 Tested with scaled features
+
+
 **4️⃣ Logistic Regression**
 Baseline linear classification model
 Used to compare performance against advanced models
 ✔ Hyperparameter tuning was applied using GridSearchCV to optimize model performance.
+
+
 **📊 Evaluation Metrics Used**
 To evaluate and compare model performance, the following metrics were used:
 🔹 Accuracy
@@ -49,6 +55,7 @@ Helps understand classification errors
 🔹 ROC-AUC (optional/analytical)
 Measures class separation capability of the model
 📈 Accuracy Achieved in the Project
+
 **Dataset	Accuracy
 Training Accuracy	~100%
 Testing Accuracy	~80%**
@@ -70,16 +77,22 @@ Target variable:
 success →
 1 = Successful / Acquired
 0 = Failed / Closed
+
+
 **📊 Exploratory Data Analysis (EDA**)
 EDA was performed to understand the dataset before modeling:
 Missing value analysis
 Descriptive statistics
 Correlation heatmap
 Feature distribution analysis
+
+
 **Key Insights:**
 Funding and market size show strong correlation with success
 Revenue growth and team size are important predictors
 No severe multicollinearity after preprocessing
+
+
 **🧰 Libraries & Tools Used**
 🔹 Python Libraries
 pandas → Data manipulation and preprocessing
@@ -107,6 +120,8 @@ Model predicts:
 “Acquired / Successful”
 “Closed / Failed”
 Result displayed instantly on the UI
+
+
 **🎯 Final Outcome**
 ✔ End-to-end ML pipeline
 ✔ Real-world startup use case
