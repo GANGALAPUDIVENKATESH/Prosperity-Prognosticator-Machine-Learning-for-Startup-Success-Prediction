@@ -3,23 +3,25 @@
 
 **📌 Project Description**
 
-**Prosperity Prognosticator**: Machine Learning for Startup Success Prediction is a data-driven system that predicts whether a startup will be successful (acquired/survived) or failed (closed) based on historical startup data.
+**Prosperity Prognosticator**:
+
+Machine Learning for Startup Success Prediction is a data-driven system that predicts whether a startup will be successful (acquired/survived) or failed (closed) based on historical startup data.
 The project analyzes funding patterns, team strength, market size, operational duration, and growth indicators using supervised machine learning algorithms. The final trained model is deployed using a Flask web application, allowing users to input startup details and instantly receive a success prediction.
 
 **This solution supports:**
 Investors → smarter investment decisions
 Entrepreneurs → better business planning
 Policy makers → data-backed startup support strategies
+
 **🧠 Machine Learning Algorithms Used**
-
 The following supervised learning algorithms were explored during model building and evaluation:
-**1️⃣ Random Forest Classifier (Final Model)**
 
+**1️⃣ Random Forest Classifier (Final Model)**
 Ensemble algorithm using multiple decision trees
 Reduces overfitting and improves generalization
 Best performing model in this project
-**2️⃣ Decision Tree Classifier**
 
+**2️⃣ Decision Tree Classifier**
 Rule-based model for interpretability
 Used for comparison with ensemble methods
 
